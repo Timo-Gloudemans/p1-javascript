@@ -15,6 +15,4 @@ function counter2 (){
     h1.innerText = count + " keer geklikt";
     document.body.style.backgroundColor = "red";
     button2.style.backgroundColor = "blue";
-    
 }
-
