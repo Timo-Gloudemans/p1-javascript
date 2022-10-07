@@ -1,7 +1,20 @@
-var calculate = (x, y) => x + y;
-var multiplyByFive = x => x * 5;
-var calculateMinutes = x => x / 60;
+function calculate (x, y) {
+let answer = x + y;
+ console.log(answer);
+}
 
-alert(calculate(1954, 3257));
-alert(multiplyByFive(5857));
-alert(calculateMinutes(3600));
+function multiplyByFive(x, y ){
+    let answer2 = x * 5;
+    console.log(answer2);
+}
+
+function calculateMinutes (x, y) {
+let answer3 = x / 60;
+console.log(answer3);
+}
+
+calculate(43534, 3254);
+
+multiplyByFive(3445, 5)
+
+calculateMinutes(3600, 60)
